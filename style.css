@@ -7,7 +7,6 @@
 body{
     margin: 0;
     font-family: 'Grape Nuts', cursive;
-    
 }
 
 .nav{
@@ -31,31 +30,27 @@ body{
     margin-top: 2rem;
 }
 .btn-translate{
-    display: block;
-    margin-left: 316px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-family: 'Grape Nuts', cursive;
     padding: 1rem 3rem;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;
     background-color: var(--yellow-color);
     border: var(--yellow-color) ;
 }
+
+.btn-div{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 .output-header{
-    margin-left: 314px;
-    margin-top: 0.5rem;
+    margin-top: 5px;
     margin-bottom: 0.5rem;
-    
-    
 }
 
 .output-div{
-    /* height: 18vh;
-    width: 50%;
-    border: solid black 1px;
-    display: block;
-    margin: auto;
-    margin-top: 1rem; */
     height: 10vh;
     width: 50%;
     border: solid black 1px;
@@ -73,6 +68,7 @@ body{
     height: 23vh;
    
 }
+
 .footer .footer-header{
     text-align: center;
     padding-top: 1rem;
