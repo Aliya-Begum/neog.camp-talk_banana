@@ -11,7 +11,7 @@ body{
 }
 
 .nav{
-    height: 14vh;
+    height: 11vh;
     background-color: var(--yellow-color);
     
 }
@@ -32,7 +32,7 @@ body{
 }
 .btn-translate{
     display: block;
-    margin-left: 312px;
+    margin-left: 316px;
     margin-top: 1rem;
     font-family: 'Grape Nuts', cursive;
     padding: 1rem 3rem;
@@ -66,11 +66,11 @@ body{
 }
 
 .footer{
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     background-color: var(--yellow-color);
     position: relative;
     bottom: 0;
-    height: 22vh;
+    height: 23vh;
    
 }
 .footer .footer-header{
@@ -81,7 +81,7 @@ body{
 
 .footer-para{
     font-weight: bold;
-    display: block;
+    text-align: center;
     margin: auto;
     max-width: 500px;
     margin-bottom: 0.5rem;
