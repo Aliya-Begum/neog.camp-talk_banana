@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Montserrat:wght@400;700&family=Nunito&display=swap');
+
+:root{
+    --yellow-color:  #facc15;
+}
+
+body{
+    margin: 0;
+    font-family: 'Grape Nuts', cursive;
+    
+}
+
+.nav{
+    height: 14vh;
+    background-color: var(--yellow-color);
+    
+}
+.nav-heading{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    padding: 1rem 0;
+}
+
+.input-text{
+    height: 15vh;
+    width: 50%;
+    border: solid black 1px;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.btn-translate{
+    display: block;
+    margin-left: 312px;
+    margin-top: 1rem;
+    font-family: 'Grape Nuts', cursive;
+    padding: 1rem 3rem;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: var(--yellow-color);
+    border: var(--yellow-color) ;
+}
+.output-header{
+    margin-left: 314px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+    
+}
+
+.output-div{
+    /* height: 18vh;
+    width: 50%;
+    border: solid black 1px;
+    display: block;
+    margin: auto;
+    margin-top: 1rem; */
+    height: 10vh;
+    width: 50%;
+    border: solid black 1px;
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    overflow: scroll;
+}
+
+.footer{
+    margin-top: 5rem;
+    background-color: var(--yellow-color);
+    position: relative;
+    bottom: 0;
+    height: 22vh;
+   
+}
+.footer .footer-header{
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
+.footer-para{
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    
+}
+
