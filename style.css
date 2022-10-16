@@ -58,6 +58,8 @@ body{
     margin: auto;
     margin-top: 0.5rem;
     overflow: scroll;
+    font-weight: bold;
+    font-size: 20px;
 }
 footer{
     position: absolute;
